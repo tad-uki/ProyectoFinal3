@@ -1,0 +1,47 @@
+
+
+@media only screen and (max-width: 600px){
+    
+    html{
+        font-size: 10px;
+    }
+    
+    nav{
+        display: none;
+        visibility: hidden;
+    }
+
+    .mainHome, .mainInicios, .mainRegistro, .mainProductos, .mainCarreras {
+        margin-top: -1px;
+    }
+
+    .extraPrincipal{
+        display:contents;
+        p{
+            margin: 5px;
+            font-size: 2rem;
+            text-align: right;
+        }
+    }
+
+    .bodyCarreras{
+        width: 600px;
+    }
+
+    .gridDiv{
+        font-size: 1.2rem;
+    }
+
+    .mainInicios{
+        margin-top: -1px;
+    }
+
+    .mainRegistro{
+        margin-top: -1px;
+    }
+
+
+}
+
+
+    

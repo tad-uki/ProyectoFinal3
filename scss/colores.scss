@@ -1,0 +1,97 @@
+@import "variables";
+
+body{
+
+    background-image: linear-gradient(to top left , rgb(243, 232, 225), rgb(228, 207, 149));
+    
+}
+
+nav{
+    background-image: linear-gradient(to right, rgb(122, 4, 69), rgb(177, 11, 25) );
+    color: rgb(199, 88, 8);
+}
+
+
+.titulo{
+    color: $titulo
+}
+
+.principalHead{
+    .h1{
+        color: $titulomain
+    }
+    p{
+        color: $texto;
+    }
+}
+
+.extraPrincipal{
+    p{
+        color: $texto;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.listaProductos{
+    background-image: linear-gradient(to right, black, rgb(65, 19, 5));
+    color: $contraste
+}
+
+.carrerasTexto{
+    p{
+        color: $texto;
+    }
+}
+
+
+.gridSpan{
+    border: solid 2px black;
+    background-color: aliceblue;
+}
+
+.gridDiv{
+    border: solid 2px black;
+    background-color: aliceblue;
+}
+
+.gridDisponible{
+    background-color: greenyellow;
+}
+
+.gridNoDisponible{
+    background-color: red;
+}
+
+.inicioIntro{
+    p{
+        color: $texto;
+    }
+
+}
+
+
+.inicioDiv1{
+    background-image: linear-gradient(to right, black, rgb(65, 19, 5));
+    color: $contraste
+}
+
+.inicioDiv2{
+    background-image: linear-gradient(to left, black, rgb(65, 19, 5));
+    color: $contraste
+    
+}
+
+
+footer{
+    section{
+        background-image: linear-gradient(to top right, black, rgb(5, 5, 65));
+        color: $contraste
+    }
+}
+
+    
+

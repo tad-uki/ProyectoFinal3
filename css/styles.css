@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.grid1 {
+  grid-area: grid1; }
+
+.grid2 {
+  grid-area: grid2; }
+
+.grid3 {
+  grid-area: grid3; }
+
+.grid4 {
+  grid-area: grid4; }
+
+.grid5 {
+  grid-area: grid5; }
+
+.footer1 {
+  grid-area: footer1;
+  margin-top: 30px; }
+
+.footer2 {
+  grid-area: footer2;
+  margin-top: 30px; }
+
+.footer3 {
+  grid-area: footer3;
+  margin-top: 30px; }
+
+.grid1 {
+  grid-area: grid1; }
+
+.grid2 {
+  grid-area: grid2; }
+
+.grid3 {
+  grid-area: grid3; }
+
+.grid4 {
+  grid-area: grid4; }
+
+.grid5 {
+  grid-area: grid5; }
+
+.footer1 {
+  grid-area: footer1;
+  margin-top: 30px; }
+
+.footer2 {
+  grid-area: footer2;
+  margin-top: 30px; }
+
+.footer3 {
+  grid-area: footer3;
+  margin-top: 30px; }
+
+body {
+  width: 100%;
+  height: 210vh; }
+
+.bodyVentas {
+  width: 100%;
+  height: 225vh; }
+
+.bodyCarreras {
+  width: 201vh;
+  height: 120vh; }
+
+.bodyInicios {
+  width: 100%;
+  height: 145vh; }
+
+.bodyRegistro {
+  width: 100%;
+  height: 120vh; }
+
+nav {
+  height: 100px;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 12;
+  display: flex;
+  flex-flow: row, wrap;
+  justify-content: left; }
+
+.sectionCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.card {
+  margin: 40px; }
+
+.productosIntro p {
+  border-width: 5px;
+  padding: 20px; }
+
+.mainProductos {
+  margin-right: 50px;
+  margin-top: 100px; }
+
+.mainHome {
+  margin-right: 50px;
+  margin-top: 100px; }
+
+.principalHead h1 {
+  margin-top: 30px;
+  text-align: center; }
+
+.principalHead p {
+  border-width: 5px;
+  padding: 20px;
+  text-align: center; }
+
+.carouselSection {
+  margin-top: 50px; }
+
+.extraPrincipal {
+  margin-top: 80px;
+  display: flex;
+  flex-flow: row nowrap;
+  border-width: 5px; }
+  .extraPrincipal p {
+    margin: 5vh;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    width: 30vw;
+    height: 30vw; }
+
+li {
+  margin: 5px; }
+
+.mainCarreras {
+  margin-top: 100px; }
+
+.carrerasPrincipal {
+  text-align: center;
+  vertical-align: middle; }
+
+.carrerasExtra {
+  margin-top: 20px; }
+
+.carrerasGrid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-areas: "grid1 grid2 grid3 grid4 grid5" "grid1 grid2 grid3 grid4 grid5" "grid1 grid2 grid3 grid4 grid5" "grid1 grid2 grid3 grid4 grid5" "grid1 grid2 grid3 grid4 grid5" "grid1 grid2 grid3 grid4 grid5" "grid1 grid2 grid3 grid4 grid5";
+  grid-template-columns: 15% 15% 15% 15% 15%;
+  grid-template-rows: 40px 40px 40px 40px 40px 40px 40px;
+  margin-bottom: 60px; }
+
+.mainInicios {
+  margin-top: 100px;
+  margin-right: 100px; }
+
+.inicioIntro {
+  text-align: center;
+  vertical-align: middle; }
+
+.inicioExtra {
+  margin-top: 20px; }
+
+.inicioImagen {
+  width: 25vw;
+  height: 25vw; }
+
+.inicioDoble {
+  display: flex;
+  flex-flow: row nowrap; }
+
+.inicioDiv2, .inicioDiv1 {
+  text-align: center;
+  padding-bottom: 50px; }
+
+.inicioDiv1 {
+  margin-right: 40px; }
+
+.mainRegistro {
+  margin-top: 100px; }
+
+.registroDiv {
+  margin-top: 60px; }
+
+footer {
+  margin-right: 50px; }
+
+footer section {
+  display: grid;
+  grid-template-areas: "footer1 footer2 footer3" "footer1 footer2 footer3" "footer1 footer2 footer3"; }
+
+.footer1 {
+  margin-left: 5vw; }
+
+.footerProductos {
+  margin-right: 0px;
+  margin-top: 30px; }
+
+.grid1 {
+  grid-area: grid1; }
+
+.grid2 {
+  grid-area: grid2; }
+
+.grid3 {
+  grid-area: grid3; }
+
+.grid4 {
+  grid-area: grid4; }
+
+.grid5 {
+  grid-area: grid5; }
+
+.footer1 {
+  grid-area: footer1;
+  margin-top: 30px; }
+
+.footer2 {
+  grid-area: footer2;
+  margin-top: 30px; }
+
+.footer3 {
+  grid-area: footer3;
+  margin-top: 30px; }
+
+body {
+  background-image: linear-gradient(to top left, #f3e8e1, #e4cf95); }
+
+nav {
+  background-image: linear-gradient(to right, #7a0445, #b10b19);
+  color: #c75808; }
+
+.titulo {
+  color: #7e071f; }
+
+.principalHead .h1 {
+  color: #025806; }
+
+.principalHead p {
+  color: #030442; }
+
+.extraPrincipal p {
+  color: #030442; }
+
+ul {
+  list-style-type: none; }
+
+.listaProductos {
+  background-image: linear-gradient(to right, black, #411305);
+  color: aliceblue; }
+
+.carrerasTexto p {
+  color: #030442; }
+
+.gridSpan {
+  border: solid 2px black;
+  background-color: aliceblue; }
+
+.gridDiv {
+  border: solid 2px black;
+  background-color: aliceblue; }
+
+.gridDisponible {
+  background-color: greenyellow; }
+
+.gridNoDisponible {
+  background-color: red; }
+
+.inicioIntro p {
+  color: #030442; }
+
+.inicioDiv1 {
+  background-image: linear-gradient(to right, black, #411305);
+  color: aliceblue; }
+
+.inicioDiv2, .inicioDiv1 {
+  background-image: linear-gradient(to left, black, #411305);
+  color: aliceblue; }
+
+footer section {
+  background-image: linear-gradient(to top right, black, #050541);
+  color: aliceblue; }
+
+.grid1 {
+  grid-area: grid1; }
+
+.grid2 {
+  grid-area: grid2; }
+
+.grid3 {
+  grid-area: grid3; }
+
+.grid4 {
+  grid-area: grid4; }
+
+.grid5 {
+  grid-area: grid5; }
+
+.footer1 {
+  grid-area: footer1;
+  margin-top: 30px; }
+
+.footer2 {
+  grid-area: footer2;
+  margin-top: 30px; }
+
+.footer3 {
+  grid-area: footer3;
+  margin-top: 30px; }
+
+.grid1 {
+  grid-area: grid1; }
+
+.grid2 {
+  grid-area: grid2; }
+
+.grid3 {
+  grid-area: grid3; }
+
+.grid4 {
+  grid-area: grid4; }
+
+.grid5 {
+  grid-area: grid5; }
+
+.footer1 {
+  grid-area: footer1;
+  margin-top: 30px; }
+
+.footer2 {
+  grid-area: footer2;
+  margin-top: 30px; }
+
+.footer3 {
+  grid-area: footer3;
+  margin-top: 30px; }
+
+html {
+  font-size: 16px; }
+
+h1 {
+  font-size: 4rem;
+  text-decoration-line: underline; }
+
+.productosIntro div {
+  font-size: 2rem;
+  text-decoration-line: none; }
+
+#principalHead div {
+  font-size: 2rem;
+  text-decoration-line: none; }
+
+.extraPrincipal p {
+  font-size: 2rem;
+  text-decoration-line: none; }
+
+.carrerasTexto p {
+  font-size: 200%;
+  text-decoration-line: none; }
+
+.carrerasExtra {
+  font-size: 2rem;
+  text-decoration-line: none; }
+
+.carrerasGrid {
+  font-size: 1.5rem;
+  text-decoration-line: none; }
+
+.inicioIntro {
+  font-size: 200%;
+  text-decoration-line: none; }
+
+.inicioDiv1 {
+  font-size: 1.5rem;
+  text-decoration-line: none; }
+
+.inicioDiv2, .inicioDiv1 {
+  font-size: 1.5rem;
+  text-decoration-line: none; }
+
+.inicioExtra {
+  font-size: 2rem;
+  text-decoration-line: none; }
+
+.registroSection {
+  font-size: 2rem;
+  text-decoration-line: none; }
+
+footer section {
+  font-size: 1.5rem;
+  text-decoration-line: none; }
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 10px; }
+  nav {
+    display: none;
+    visibility: hidden; }
+  .mainHome, .mainInicios, .mainRegistro, .mainProductos, .mainCarreras {
+    margin-top: -1px; }
+  .extraPrincipal {
+    display: contents; }
+    .extraPrincipal p {
+      margin: 5px;
+      font-size: 2rem;
+      text-align: right; }
+  .bodyCarreras {
+    width: 600px; }
+  .gridDiv {
+    font-size: 1.2rem; }
+  .mainInicios {
+    margin-top: -1px; }
+  .mainRegistro {
+    margin-top: -1px; } }

@@ -1,0 +1,21 @@
+$titulomain: rgb(2, 88, 6);
+$titulo: rgb(126, 7, 31);
+$texto: rgb(3, 4, 66);
+$contraste: rgb(240, 248, 255);
+
+$small: 1.5rem;
+$medium: 2rem;
+$large: 4rem;
+
+@for $num from 1 through 5{
+    .grid#{$num}{
+        grid-area: grid#{$num};
+    }
+}
+
+@for $foot from 1 through 3{
+    .footer#{$foot}{
+        grid-area: footer#{$foot};
+        margin-top: 30px;
+    }
+}

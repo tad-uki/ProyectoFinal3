@@ -1,0 +1,82 @@
+@import "variables";
+
+@mixin fontstyle($size, $textdecoration) {
+    font-size: $size;
+    text-decoration-line: $textdecoration;
+}
+
+html{
+    font-size: 16px;
+}
+
+h1{
+    @include fontstyle($large, underline )
+}
+
+.productosIntro{
+    div{
+        @include fontstyle($medium, none )
+    }
+}
+
+#principalHead{
+
+    div{
+        @include fontstyle($medium, none )
+    }
+        
+    
+}
+
+.extraPrincipal{
+    p{
+        @include fontstyle($medium, none)
+    }
+
+}
+
+
+.carrerasTexto{
+
+    p{
+        @include fontstyle(200%, none )
+    }
+}
+
+.carrerasExtra{
+    @include fontstyle($medium, none)
+}
+
+.carrerasGrid{
+    @include fontstyle($small, none )
+}
+
+.inicioIntro{
+    @include fontstyle(200%, none );
+}
+
+.inicioDiv1{
+    @include fontstyle($small, none )
+}
+
+.inicioDiv2{
+    @include fontstyle($small, none)
+}
+
+.inicioExtra{
+    @include fontstyle($medium, none)
+}
+
+
+.registroSection{
+    @include fontstyle($medium, none );
+}
+
+footer{
+    section{
+        @include fontstyle($small, none)
+    }
+}
+
+
+
